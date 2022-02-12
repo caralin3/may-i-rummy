@@ -6,12 +6,19 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest",
+    "test:debug": "jest -o --watch --coverage=false",
+    "test:updateSnapshots": "jest -u --coverage=false",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.16.1",
     "@reduxjs/toolkit": "^1.7.2",
     "expo": "^44.0.0",
+    "jest": "^26.6.3",
+    "jest-expo": "^44.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
