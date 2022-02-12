@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "May I",
+    "version": "1.0.0",
+    "slug": "may-i",
+    "android": {
+      "package": "com.steinberg.mayI"
+    },
+    "ios": {
+      "bundleIdentifier": "com.steinberg.mayI"
+    }
+  }
+}
