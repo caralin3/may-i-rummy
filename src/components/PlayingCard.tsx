@@ -1,11 +1,11 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React from 'react';
 import { Animated, Image, StyleSheet, View } from 'react-native';
-import { Card, Colors } from 'react-native-paper';
+import { Card as RNPCard, Colors } from 'react-native-paper';
 import { Col, Row } from './Grid';
 import { FontSizes, GutterSizes } from '../appearance';
 import { Text } from './Text';
-import { CardSuit, CardValue, Deck } from '../types';
+import { Card, CardSuit, CardValue, Deck } from '../types';
 import { createFlipAnim } from '../utils';
 
 export interface PlayingCardFrontProps {
@@ -137,7 +137,7 @@ export const PlayingCardFront: React.FC<PlayingCardFrontProps> = ({ suit, value 
   };
 
   return (
-    <Card style={styles.container} elevation={5}>
+    <RNPCard style={styles.container} elevation={5}>
       <Row flex={1} justify='center'>
         {value === 'joker' ? (
           <Col style={styles.joker}>
@@ -153,7 +153,7 @@ export const PlayingCardFront: React.FC<PlayingCardFrontProps> = ({ suit, value 
         )}
         <View style={styles.numbers}>{cardFace()}</View>
       </Row>
-    </Card>
+    </RNPCard>
   );
 };
 
@@ -168,17 +168,15 @@ export const PlayingCardBack: React.FC<PlayingCardBackProps> = ({ deck }) => {
       : require('../appearance/assets/card-back-red.png');
 
   return (
-    <Card style={styles.container} elevation={5}>
+    <RNPCard style={styles.container} elevation={5}>
       <Image source={backPattern} resizeMode='contain' style={styles.backFace} />
-    </Card>
+    </RNPCard>
   );
 };
 
 export interface PlayingCardProps {
-  deck: Deck;
+  card: Card;
   faceDown?: boolean;
-  suit: CardSuit;
-  value: CardValue;
 }
 
 export const PlayingCard: React.FC<PlayingCardProps> = (props) => {
@@ -191,10 +189,10 @@ export const PlayingCard: React.FC<PlayingCardProps> = (props) => {
   return (
     <View>
       <Animated.View style={[styles.flip, flipAnim.frontAnimatedStyle]}>
-        {props.faceDown ? <PlayingCardBack {...props} /> : <PlayingCardFront {...props} />}
+        {props.faceDown ? <PlayingCardBack {...props.card} /> : <PlayingCardFront {...props.card} />}
       </Animated.View>
       <Animated.View style={[styles.flip, styles.flipBack, flipAnim.backAnimatedStyle]}>
-        {props.faceDown ? <PlayingCardFront {...props} /> : <PlayingCardBack {...props} />}
+        {props.faceDown ? <PlayingCardFront {...props.card} /> : <PlayingCardBack {...props.card} />}
       </Animated.View>
     </View>
   );

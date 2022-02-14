@@ -17,3 +17,9 @@ export type CardValue =
   | 'joker';
 
 export type Deck = 'red' | 'blue';
+
+export interface Card {
+  deck: Deck;
+  suit: CardSuit;
+  value: CardValue;
+}
