@@ -3,8 +3,20 @@
     "name": "May I",
     "version": "1.0.0",
     "slug": "may-i",
+    "primaryColor": "#12890F",
+    "icon": "./src/appearance/assets/app_ic.png",
+    "assetBundlePatterns": ["./src/appearance/assets/*"],
+    "splash": {
+      "image": "./src/appearance/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12890F"
+    },
     "android": {
-      "package": "com.steinberg.mayI"
+      "package": "com.steinberg.mayI",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/appearance/assets/adaptive_ic.png",
+        "backgroundColor": "#12890F"
+      }
     },
     "ios": {
       "bundleIdentifier": "com.steinberg.mayI"
