@@ -1,5 +1,6 @@
 import AppLoading from 'expo-app-loading';
 import { Asset } from 'expo-asset';
+import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
@@ -24,10 +25,14 @@ function cacheImages(images) {
 
 export default function App() {
   const [appIsReady, setAppIsReady] = React.useState(false);
+  const [fontsLoaded] = useFonts({
+    'Spicy-Rice': require('./src/appearance/assets/fonts/SpicyRice-Regular.ttf'),
+  });
   const persistor = persistStore(store);
 
   async function loadAssetsAsync() {
     const imageAssets = cacheImages([
+      require('./src/appearance/assets/cards.png'),
       require('./src/appearance/assets/card-back-blue.png'),
       require('./src/appearance/assets/card-back-red.png'),
     ]);
@@ -54,7 +59,7 @@ export default function App() {
     }
   }, [appIsReady]);
 
-  if (!appIsReady) {
+  if (!appIsReady || !fontsLoaded) {
     return <AppLoading startAsync={startAsync} onFinish={() => setAppIsReady(true)} onError={console.warn} />;
   }
 
@@ -72,12 +77,3 @@ export default function App() {
     </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

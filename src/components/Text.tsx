@@ -30,11 +30,11 @@ export const Text: React.FC<TextProps> = ({
   <RNText
     style={{
       ...style,
-      color: textColor ? textColor : !!!!style && !!style.color ? style.color : undefined,
+      color: textColor ? textColor : !!style && !!style.color ? style.color : undefined,
       fontSize: FontSizes[size],
       fontStyle: italic ? 'italic' : undefined,
       fontWeight: bold ? 'bold' : undefined,
-      lineHeight: FontSizes[size],
+      lineHeight: !!style && !!style.lineHeight ? style.lineHeight : FontSizes[size],
       paddingBottom: !!gutters && !!gutters.bottom ? GutterSizes[gutters.bottom] : undefined,
       paddingLeft: !!gutters && !!gutters.left ? GutterSizes[gutters.left] : undefined,
       paddingRight: !!gutters && !!gutters.right ? GutterSizes[gutters.right] : undefined,

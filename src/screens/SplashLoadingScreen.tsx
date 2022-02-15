@@ -11,11 +11,11 @@ export const SplashLoadingScreen: React.FC = () => (
       <Image source={require('../appearance/assets/cards.png')} style={styles.image} />
     </View>
     <View style={styles.banner}>
-      <Text align='center' textColor='#FFED47' size='xl'>
+      <Text style={styles.label} align='center' textColor='#FFED47' size='xl'>
         May I?
       </Text>
     </View>
-    <Text align='center' textColor='#FFED47' size='md'>
+    <Text style={styles.text} align='center' textColor='#FFED47' size='md'>
       A Rummy Game
     </Text>
     <View style={styles.version}>
@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
   banner: {
     backgroundColor: '#66358C',
     padding: GutterSizes.md,
+    paddingBottom: GutterSizes.xs,
     marginVertical: GutterSizes.md,
     width: '100%',
   },
@@ -45,6 +46,14 @@ const styles = StyleSheet.create({
     height: 150,
     resizeMode: 'contain',
     width: 400,
+  },
+  label: {
+    fontFamily: 'Spicy-Rice',
+    lineHeight: 45,
+  },
+  text: {
+    fontFamily: 'Spicy-Rice',
+    lineHeight: 30,
   },
   version: {
     position: 'absolute',
