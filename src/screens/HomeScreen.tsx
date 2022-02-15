@@ -8,7 +8,7 @@ export interface HomeScreenProps {}
 export const HomeScreen: React.FC<HomeScreenProps> = () => {
   return (
     <View style={{ flex: 1, padding: 10 }}>
-      <Text>Home</Text>
+      <Text>May I?</Text>
       <Link to={{ screen: 'Settings' }}>Settings</Link>
     </View>
   );

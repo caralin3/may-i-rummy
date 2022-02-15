@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text as RNText, TextStyle } from 'react-native';
-import { FontSizes, GutterSizes } from '../appearance';
+import { Colors, FontSizes, GutterSizes } from '../appearance';
 
 export interface TextProps {
   align?: TextStyle['textAlign'];
@@ -14,7 +14,7 @@ export interface TextProps {
   italic?: boolean;
   size?: keyof typeof FontSizes;
   style?: TextStyle;
-  textColor?: string;
+  textColor?: keyof typeof Colors;
 }
 
 export const Text: React.FC<TextProps> = ({
@@ -30,7 +30,7 @@ export const Text: React.FC<TextProps> = ({
   <RNText
     style={{
       ...style,
-      color: textColor ? textColor : !!style && !!style.color ? style.color : undefined,
+      color: textColor ? Colors[textColor] : !!style && !!style.color ? style.color : undefined,
       fontSize: FontSizes[size],
       fontStyle: italic ? 'italic' : undefined,
       fontWeight: bold ? 'bold' : undefined,

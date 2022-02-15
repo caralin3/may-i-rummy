@@ -1,12 +1,12 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React from 'react';
 import { Animated, Image, StyleSheet, View } from 'react-native';
-import { Card as RNPCard, Colors } from 'react-native-paper';
-import { Col, Row } from './Grid';
-import { FontSizes, GutterSizes } from '../appearance';
-import { Text } from './Text';
+import { Card as RNPCard } from 'react-native-paper';
+import { Colors, FontSizes, GutterSizes } from '../appearance';
 import { Card, CardSuit, CardValue, Deck } from '../types';
 import { createFlipAnim } from '../utils';
+import { Col, Row } from './Grid';
+import { Text } from './Text';
 
 export interface PlayingCardFrontProps {
   suit: CardSuit;
@@ -122,7 +122,7 @@ export const PlayingCardFront: React.FC<PlayingCardFrontProps> = ({ suit, value 
   const suitIcon = (size = 20, cardSuit: CardSuit = suit) => (
     <MaterialCommunityIcons
       name={`cards-${cardSuit}`}
-      color={cardSuit === 'heart' || cardSuit === 'diamond' ? Colors.redA700 : Colors.black}
+      color={cardSuit === 'heart' || cardSuit === 'diamond' ? Colors.red : Colors.black}
       style={styles.suit}
       size={size}
     />

@@ -2,7 +2,7 @@ import * as Constants from 'expo-constants';
 import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 import { ActivityIndicator } from 'react-native-paper';
-import { GutterSizes } from '../appearance';
+import { Colors, GutterSizes } from '../appearance';
 import { Text } from '../components';
 
 export const SplashLoadingScreen: React.FC = () => (
@@ -11,16 +11,16 @@ export const SplashLoadingScreen: React.FC = () => (
       <Image source={require('../appearance/assets/cards.png')} style={styles.image} />
     </View>
     <View style={styles.banner}>
-      <Text style={styles.label} align='center' textColor='#FFED47' size='xl'>
+      <Text style={styles.label} align='center' textColor='yellow' size='xl'>
         May I?
       </Text>
     </View>
-    <Text style={styles.text} align='center' textColor='#FFED47' size='md'>
+    <Text style={styles.text} align='center' textColor='yellow' size='md'>
       A Rummy Game
     </Text>
     <View style={styles.version}>
-      <ActivityIndicator animating={true} color='#fff' />
-      <Text gutters={{ top: 'md' }} size='xs' textColor='#fff'>
+      <ActivityIndicator animating={true} color={Colors.white} />
+      <Text gutters={{ top: 'md' }} size='xs' textColor='white'>
         Version {Constants.default.manifest.version}
       </Text>
     </View>
@@ -30,13 +30,13 @@ export const SplashLoadingScreen: React.FC = () => (
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    backgroundColor: '#12890F',
+    backgroundColor: Colors.green,
     justifyContent: 'center',
     flex: 1,
     paddingVertical: GutterSizes.lg,
   },
   banner: {
-    backgroundColor: '#66358C',
+    backgroundColor: Colors.purple,
     padding: GutterSizes.md,
     paddingBottom: GutterSizes.xs,
     marginVertical: GutterSizes.md,
