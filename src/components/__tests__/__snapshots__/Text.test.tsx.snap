@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders bold correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": 24,
+      "fontStyle": undefined,
+      "fontWeight": "bold",
+      "lineHeight": 24,
+      "paddingBottom": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "textAlign": undefined,
+    }
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Text renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": 24,
+      "fontStyle": undefined,
+      "fontWeight": undefined,
+      "lineHeight": 24,
+      "paddingBottom": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "textAlign": undefined,
+    }
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Text renders italic correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": 24,
+      "fontStyle": "italic",
+      "fontWeight": undefined,
+      "lineHeight": 24,
+      "paddingBottom": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "textAlign": undefined,
+    }
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Text renders large font size correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": 32,
+      "fontStyle": undefined,
+      "fontWeight": undefined,
+      "lineHeight": 32,
+      "paddingBottom": undefined,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+      "textAlign": undefined,
+    }
+  }
+>
+  Text
+</Text>
+`;

@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playing Card renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backfaceVisibility": "hidden",
+        "transform": Array [
+          Object {
+            "rotateX": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderRadius": 10,
+          "elevation": 5,
+          "height": 150,
+          "marginBottom": 10,
+          "padding": 3,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.24,
+          "shadowRadius": 5,
+          "width": 100,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "width": "100%",
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingHorizontal": undefined,
+                "paddingVertical": undefined,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": undefined,
+                "justifyContent": "center",
+                "left": 0,
+                "padding": undefined,
+                "position": "absolute",
+                "top": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 24,
+                  "fontStyle": undefined,
+                  "fontWeight": undefined,
+                  "lineHeight": 24,
+                  "paddingBottom": undefined,
+                  "paddingLeft": undefined,
+                  "paddingRight": undefined,
+                  "paddingTop": undefined,
+                  "textAlign": undefined,
+                }
+              }
+            >
+              6
+            </Text>
+            <Text />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "paddingHorizontal": 20,
+                "paddingVertical": 15,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backfaceVisibility": "hidden",
+        "position": "absolute",
+        "top": 0,
+        "transform": Array [
+          Object {
+            "rotateX": "180deg",
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderRadius": 10,
+          "elevation": 5,
+          "height": 150,
+          "marginBottom": 10,
+          "padding": 3,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.24,
+          "shadowRadius": 5,
+          "width": 100,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+      >
+        <Image
+          index={0}
+          resizeMode="contain"
+          siblings={
+            Array [
+              "Image",
+            ]
+          }
+          source={1}
+          style={
+            Object {
+              "flex": 1,
+              "marginVertical": 3,
+              "width": "100%",
+            }
+          }
+          total={1}
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Playing Card renders face down correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backfaceVisibility": "hidden",
+        "transform": Array [
+          Object {
+            "rotateX": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderRadius": 10,
+          "elevation": 5,
+          "height": 150,
+          "marginBottom": 10,
+          "padding": 3,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.24,
+          "shadowRadius": 5,
+          "width": 100,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+      >
+        <Image
+          index={0}
+          resizeMode="contain"
+          siblings={
+            Array [
+              "Image",
+            ]
+          }
+          source={1}
+          style={
+            Object {
+              "flex": 1,
+              "marginVertical": 3,
+              "width": "100%",
+            }
+          }
+          total={1}
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backfaceVisibility": "hidden",
+        "position": "absolute",
+        "top": 0,
+        "transform": Array [
+          Object {
+            "rotateX": "180deg",
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderRadius": 10,
+          "elevation": 5,
+          "height": 150,
+          "marginBottom": 10,
+          "padding": 3,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.24,
+          "shadowRadius": 5,
+          "width": 100,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": 1,
+            "flexShrink": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "width": "100%",
+              },
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "paddingHorizontal": undefined,
+                "paddingVertical": undefined,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": undefined,
+                "justifyContent": "center",
+                "left": 0,
+                "padding": undefined,
+                "position": "absolute",
+                "top": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": 24,
+                  "fontStyle": undefined,
+                  "fontWeight": undefined,
+                  "lineHeight": 24,
+                  "paddingBottom": undefined,
+                  "paddingLeft": undefined,
+                  "paddingRight": undefined,
+                  "paddingTop": undefined,
+                  "textAlign": undefined,
+                }
+              }
+            >
+              6
+            </Text>
+            <Text />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "paddingHorizontal": 20,
+                "paddingVertical": 15,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "width": "100%",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "paddingHorizontal": undefined,
+                    "paddingVertical": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "padding": undefined,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

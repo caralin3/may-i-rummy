@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid renders Column correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": undefined,
+        "justifyContent": "space-between",
+        "paddingHorizontal": undefined,
+        "paddingVertical": undefined,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": undefined,
+        "justifyContent": "center",
+        "padding": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 24,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "lineHeight": 24,
+          "paddingBottom": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "textAlign": undefined,
+        }
+      }
+    >
+      Col
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": undefined,
+        "justifyContent": "center",
+        "padding": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 24,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "lineHeight": 24,
+          "paddingBottom": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+          "paddingTop": undefined,
+          "textAlign": undefined,
+        }
+      }
+    >
+      Col
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Grid renders Row correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": undefined,
+        "justifyContent": "space-between",
+        "paddingHorizontal": undefined,
+        "paddingVertical": undefined,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": undefined,
+        "fontSize": 24,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "lineHeight": 24,
+        "paddingBottom": undefined,
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+        "paddingTop": undefined,
+        "textAlign": undefined,
+      }
+    }
+  >
+    Row
+  </Text>
+</View>
+`;
