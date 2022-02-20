@@ -1,14 +1,14 @@
 import { Link } from '@react-navigation/native';
 import React from 'react';
 import { View } from 'react-native';
-import { Button, Text } from '../components';
+import { Text } from '../components';
 
-export interface SettingsScreenProps {}
+export interface RulesScreenProps {}
 
-export const SettingsScreen: React.FC<SettingsScreenProps> = () => {
+export const RulesScreen: React.FC<RulesScreenProps> = () => {
   return (
     <View style={{ flex: 1 }}>
-      <Text>Settings</Text>
+      <Text>Rules</Text>
       <Link to={{ screen: 'Home' }}>Home</Link>
     </View>
   );

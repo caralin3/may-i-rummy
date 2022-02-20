@@ -4,6 +4,7 @@ export const FontSizes = {
   md: 24,
   lg: 32,
   xl: 40,
+  xxl: 48,
 };
 
 export const GutterSizes = {
@@ -12,4 +13,5 @@ export const GutterSizes = {
   sm: 10,
   md: 15,
   lg: 20,
+  xl: 30,
 };
